@@ -1,0 +1,200 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: King Sum Chan
+title: Analyst programmer
+#email: Your email (optional)
+# email_title: Email (Email title override)
+#phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+#website: https://samchan2022.github.io
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: samchan2022rb
+github_username:  samchan2022
+#stackoverflow_username: "00000001"
+#dribbble_username: samchan2022
+#facebook_username: samchan2022
+#flickr_username: samchan2022
+#instagram_username: samchan2022
+linkedin_username: king-sum-chan-06b77983 
+#xing_username: samchan2022
+#pinterest_username: samchan2022
+#youtube_username: samchan2022
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+#
+#additional_links:
+#- title: Link name
+  #icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  #url: Link url (eg. https://google.com)
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+#
+#about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  I am a full stack developer, open source enthusiast, polyglot, life long learner, from hong kong.
+  I enjoy learning new technology. Keeping oneself up to date to the latest changes is an important key to success. I believe learning never ends. There can always be innovations and improvements unless one is satisfied.
+
+#  especially in this internet era where one can just in touch with with the state to the art technology with one click. What a great time to be alive!
+
+#I really enjoy learning new stuff, especially in this internet era where one can just in touch with with the state to the art technology with one click. What a great time to be alive!
+
+#You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    #- Lists
+    #- Tables
+    #- <a href="google.com">Links</a>
+    #- Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+  #- title: Projects # Title for the section
+    #layout: list # Type of content section (list/text)
+    #content:
+      #- layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      ## other value (or no value) means no border will be displayed
+        #title: Project name
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        #additional_links:
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #quote: >
+          #Short overview of the project (optional)
+        #description: | # this will include new lines to allow paragraphs
+          #Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Persolkelly Hong Kong Limited 
+        sub_title: Analyst Programmer
+        caption: Apr 2021 - Apr 2022
+        #link: Link to company (optional)
+        #quote: >
+          #Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - IoT management system – Full stack development of the IoT project. Frontend: Developed a web page to allow user to view and search the real time data. Backend: Built api to support frontend webpage and also allow advanced user to query and get analysis/statistics.
+          - Machine learning -Time series – Utilize deep learning (TensorFlow) to analyze the time series data (IoT device collected data) and predict / forecast the future data trend.
+          - Mongo Cloud /archive (AWS) - Utilize the latest MongoDB cloud (atlas) service and archive script (aws) to store the IoT data.
+      - layout: right
+        title: Automated Systems (H.K.) Limited (ASL)
+        sub_title: Analyst Programmer
+        caption: Apr 2020 - Apr 2021
+        description: | # this will include new lines to allow paragraphs
+          - Report management system - Develop a report management system with jasper report engine (CRUD) with recurring report generation features.  (  cloud openshift + microservices with spring boot + nodejs with reactJS)
+          - Appointment Calendar – Develop to calendar with(day/week/month) to view and make appointments.
+      - layout: right
+        title: Teksbotics HK Limited
+        sub_title: Web Programmer
+        caption: Feb 2018 - May 2019
+        description: | # this will include new lines to allow paragraphs
+          - Machine learning application - deploy facial recognition, voice recognition, human trend predictions with the robot using python
+          - Chatbot - To build a conversation chatbot using either keywords or nlp engine for robots.
+          - Programming for Pepper - To build the games, applications with the world famous humanoid robot pepper using JS script, html,css, and python.
+          - Programming Robot arm - To program the robot to do makeup, coffee and tea and communicate with different kind of robots using python api
+      - layout: right
+        title: FlexSystem Ltd., Hong Kong  
+        sub_title: Software Engineer
+        caption: Jul 2017 - Apr 2018
+        description: | # this will include new lines to allow paragraphs
+          - Designing Web page- Utilize bootstrap, HTML,CSS,JS, AngularJS, ReactJS to create elegant responsive web page that run on all devices.
+          - Web Based Enterprise management system- To build an interactive web application using HTML, CSS, JS, Angular JS and react JS in which allows enterprise to manages task assignment with features like messaging, tasks manipulation, view calendar and etc..
+          - Web file system - To build a web file system UI which allow users to create files, folders, upload files, view file details and download files from the server.
+      - layout: right
+        title: ASM Pacific Technology Ltd., Hong Kong 
+        sub_title: Production Engineer
+        caption: Apr 2015 - Jul 2017
+        description: | # this will include new lines to allow paragraphs
+          - Robot arm programming- To program the robot arm to pick, place part and do calibration for the precision items integrating machine vision.
+          - Machine vision technology- Utilized Machine vision to do pattern recognize and integrate with the system.
+          - Research & Development: Analyze & research how to utilize or integrate the state to the art technology like machine vision and robot arm to automate, improve efficiency and reduce human errors for the repetitive tasks such such as calibration, Inspection and pick-and-place jobs.
+  - title: Education
+    layout: text
+    content: |
+      - 2013-2014: Lancaster University: MSc in Mechanical Engineering.
+      - 2010-2013: Lancaster University: BSc (Hons) in Engineering Science
+
+
+  - title: I.T Skills, Language & interest
+    layout: text
+    content: |
+      - IT Skills: Python, tensorflow,  Html5, Css , JS, AngularJS, ReactJS, Vuejs, Nodejs, Go lang, C#, C++, Java  
+      - Interest: Robotics, reading books, gym, badminton, cycling, running, table tennis, squash, and traveling.
+      - Language:  Cantonese (Native), English (Fluent), Mandarin (Fluent), Japanese ( Intermediate ), Spanish (Intermediate)
+
+#- layout: right
+  #title: Engineering Department
+  #sub_title: MSc in Mechanical Engineering
+  #caption: 2013 - 2014
+
+#- layout: right
+  #title: Engineering Department
+  #sub_title: MSc in Mechanical Engineering
+  #caption: 2013 - 2014
+  #description: | # this will include new lines to allow paragraphs
+
+  #quote: >
+    #Short institution or course description (optional)
+  #description: | # this will include new lines to allow paragraphs
+    #Description of qualification
+  #- title: A Little More About Me
+    #layout: text
+    #content: | # this will include new lines to allow paragraphs
+      #This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      #Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
