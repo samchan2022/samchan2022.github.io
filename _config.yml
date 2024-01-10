@@ -55,8 +55,12 @@ linkedin_username: king-sum-chan-06b77983
 #
 #about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  I am a full stack developer, open source enthusiast, polyglot, life long learner, from hong kong.
-  I enjoy learning new technology. Keeping oneself up to date to the latest changes is an important key to success. I believe learning never ends. There can always be innovations and improvements unless one is satisfied.
+  A Full stack developer specializing in python, with more than 5 years hands-on experience in python programming with working on different set of problems. They Include robot/machine automation,
+  server cronjob(contab in linux), data processing, backend api server (flask, django) operating with
+  various frontend applications ( reactjs, vuejs ) and machine learning applications with TensorFlow to
+  predict/forecast the time series data. Having a diversity in python applications has widen my
+  spectrum on knowing how to better code and integrate the python application with state-to-the-art
+  technologies.
 
 #  especially in this internet era where one can just in touch with with the state to the art technology with one click. What a great time to be alive!
 
@@ -92,6 +96,17 @@ content:
   - title: Experience
     layout: list
     content:
+      - layout: right
+        title: Catapult Sports
+        sub_title: Software Engineer
+        caption: May 2022 - Current
+        link: https://www.catapult.com/
+        #quote: >
+          #Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - GoLang API Development – Develop and maintain GraphQL-based APIs for seamless interaction with the video storage and management system. Integrate live-streaming features to enable real-time video streaming and broadcasting.
+          - AWS Cloud Development – Lead the full integration of the AWS cloud platform to ensure scalability, reliability, and optimal performance. Utilize AWS services such as RDS (Relational Database Service), Lambda functions, and ECS (Elastic Container Service) to architect a highly efficient cloud infrastructure.
+          - Infrastructure as code – using terraform to deploy backend into AWS cloud platform. Write migration script to migrate different cluster databases.
       - layout: right
         title: Persolkelly Hong Kong Limited 
         sub_title: Analyst Programmer
